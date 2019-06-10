@@ -7,12 +7,10 @@
     android:gravity="center"
     tools:context=".MainActivity"
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <LinearLayout
             android:gravity="center"
             android:layout_width="0dp"
@@ -23,6 +21,7 @@
             android:padding="7dp"
             android:layout_margin="7dp">
             <ImageView
+                android:backgroundTint="#09209E"
                 android:background="@drawable/circle"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -32,7 +31,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ADDITION"
-                android:textSize="30dp"
+                android:textSize="20dp"
+                android:textColor="#09209E"
                 android:padding="7dp"/>
         </LinearLayout>
         <LinearLayout
@@ -45,16 +45,19 @@
             android:background="#ffffff"
             android:padding="7dp">
             <ImageView
+                android:backgroundTint="#4CAF50"
                 android:background="@drawable/circle"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/ic_add_black_24dp"/>
+                android:src="@drawable/minus"
+                android:tint="#ffffff"/>
             <TextView
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ADDITION"
-                android:textSize="30dp"
+                android:text="SUBSTRACTION"
+                android:textColor="#4CAF50"
+                android:textSize="20dp"
                 android:padding="7dp"/>
 
         </LinearLayout>
@@ -74,16 +77,19 @@
             android:padding="7dp"
             android:layout_margin="7dp">
             <ImageView
+                android:backgroundTint="#F3B90B"
                 android:background="@drawable/circle"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/ic_add_black_24dp"/>
+                android:src="@drawable/cross"
+                android:tint="#ffffff"/>
             <TextView
                 android:gravity="center"
+                android:textColor="#F3B90B"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ADDITION"
-                android:textSize="30dp"
+                android:text="MULTIPLICATION"
+                android:textSize="20dp"
                 android:padding="7dp"/>
         </LinearLayout>
         <LinearLayout
@@ -96,16 +102,19 @@
             android:background="#ffffff"
             android:padding="7dp">
             <ImageView
+                android:backgroundTint="#DF3225"
                 android:background="@drawable/circle"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/ic_add_black_24dp"/>
+                android:src="@drawable/div"
+                android:tint="#ffffff"/>
             <TextView
                 android:gravity="center"
+                android:textColor="#DF3225"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ADDITION"
-                android:textSize="30dp"
+                android:text="DIVISION"
+                android:textSize="20dp"
                 android:padding="7dp"/>
 
         </LinearLayout>
@@ -125,15 +134,18 @@
             android:padding="7dp"
             android:layout_margin="7dp">
             <ImageView
+                android:backgroundTint="#DF3C08"
                 android:background="@drawable/circle"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/ic_add_black_24dp"/>
+                android:src="@drawable/all"
+                android:tint="#ffffff"/>
             <TextView
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ADDITION"
+                android:text="ALL 4"
+                android:textColor="#DF3C08"
                 android:textSize="30dp"
                 android:padding="7dp"/>
         </LinearLayout>
@@ -147,101 +159,20 @@
             android:background="#ffffff"
             android:padding="7dp">
             <ImageView
+                android:backgroundTint="#550BDA"
                 android:background="@drawable/circle"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/ic_add_black_24dp"/>
+                android:src="@drawable/all"
+                android:tint="#ffffff"/>
             <TextView
                 android:gravity="center"
+                android:textColor="#550BDA"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ADDITION"
-                android:textSize="30dp"
+                android:text="FUN WORD PROBLEMS"
+                android:textSize="17dp"
                 android:padding="7dp"/>
-
         </LinearLayout>
     </LinearLayout>
-    <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:orientation="vertical">-->
-        <!--<TextView-->
-            <!--android:padding="4dp"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="MENTAL MATHS"-->
-            <!--android:textSize="30dp"-->
-            <!--android:drawableStart="@drawable/ic_arrow_back_black_24dp"-->
-            <!--android:textColor="#ffffffff"-->
-            <!--android:textStyle="bold"-->
-            <!--android:gravity="center"/>-->
-        <!--<LinearLayout-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:padding="20dp"-->
-            <!--android:orientation="horizontal">-->
-            <!--<ImageView-->
-                <!--android:layout_marginBottom="10dp"-->
-                <!--android:padding="20dp"-->
-                <!--android:background="@drawable/rectangle"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textSize="20dp" />-->
-            <!---->
-            <!--<ImageView-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:padding="20dp"-->
-                <!--android:background="@drawable/rectangle"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textSize="20dp"-->
-                <!--android:text="Addition"/>-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:padding="20dp"-->
-            <!--android:orientation="horizontal">-->
-            <!--<TextView-->
-                <!--android:layout_marginBottom="10dp"-->
-                <!--android:padding="20dp"-->
-                <!--android:background="@drawable/rectangle"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textSize="20dp"-->
-                <!--android:text="Addition"/>-->
-            <!--<TextView-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:padding="20dp"-->
-                <!--android:background="@drawable/rectangle"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textSize="20dp"-->
-                <!--android:text="Addition"/>-->
-        <!--</LinearLayout>-->
-
-        <!--<LinearLayout-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:padding="20dp"-->
-            <!--android:orientation="horizontal">-->
-            <!--<TextView-->
-                <!--android:layout_marginBottom="10dp"-->
-                <!--android:padding="20dp"-->
-                <!--android:background="@drawable/rectangle"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textSize="20dp"-->
-                <!--android:text="Addition"/>-->
-            <!--<TextView-->
-                <!--android:layout_marginLeft="20dp"-->
-                <!--android:padding="20dp"-->
-                <!--android:background="@drawable/rectangle"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:textSize="20dp"-->
-                <!--android:text="Addition"/>-->
-        <!--</LinearLayout>-->
-    <!--</LinearLayout>-->
 </LinearLayout>
